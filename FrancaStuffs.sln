@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrancaStuffs.Util", "FrancaStuffs.Util\FrancaStuffs.Util.csproj", "{25986F64-7FB3-4C3E-A76D-4FC649E5B8C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrancaStuffs.Test", "FrancaStuffs.Test\FrancaStuffs.Test.csproj", "{0E03021A-C2D1-41AB-B30C-1C952F5EEB7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25986F64-7FB3-4C3E-A76D-4FC649E5B8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25986F64-7FB3-4C3E-A76D-4FC649E5B8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25986F64-7FB3-4C3E-A76D-4FC649E5B8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25986F64-7FB3-4C3E-A76D-4FC649E5B8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E03021A-C2D1-41AB-B30C-1C952F5EEB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E03021A-C2D1-41AB-B30C-1C952F5EEB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E03021A-C2D1-41AB-B30C-1C952F5EEB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E03021A-C2D1-41AB-B30C-1C952F5EEB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96A60D30-E78E-4F23-8175-4FEB6B8E2D61}
+	EndGlobalSection
+EndGlobal
