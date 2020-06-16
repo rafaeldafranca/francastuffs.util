@@ -33,10 +33,10 @@ namespace FrancaStuffs.Util.Servicos
                     IsBodyHtml = true
 
                 };
-                mailMessage.To.Add(email.Co);
+                mailMessage.To.Add(email.To);
                 if (email.CCo != null)
                     mailMessage.CC.Add(email.CCo);
-
+                
                 if (email.Files != null)
                     foreach (var item in email.Files)
                     {
