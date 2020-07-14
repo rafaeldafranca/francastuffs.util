@@ -1,8 +1,4 @@
-﻿
-using System;
-using System.Globalization;
-
-namespace FrancaStuffs.Util.Extensoes
+﻿namespace FrancaStuffs.Util.Extensoes
 {
     public static class NumericExtensions
     {
@@ -13,6 +9,7 @@ namespace FrancaStuffs.Util.Extensoes
 
             if (decimal.TryParse(objeto.ToString(), out decimal valor))
             {
+                if (valor == 0) return "0";
                 resultado = string.Format("{0:#.00}", valor)
                                   .Remover(new string[] { ".", ",00" })
                                   .Replace(",", ".");

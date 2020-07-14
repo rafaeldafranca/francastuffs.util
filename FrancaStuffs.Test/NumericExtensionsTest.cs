@@ -15,6 +15,12 @@ namespace FrancaStuffs.Test
         [TestMethod]
         public void TofloatSqlTest()
         {
+            decimal n = 0;
+            Assert.AreEqual(n.ToNumericSql(), "0", "Nao retornou 0", CultureInfo.CurrentCulture);
+
+            n = 1;
+            Assert.AreEqual(n.ToNumericSql(), "1", "Nao retornou 1", CultureInfo.CurrentCulture);
+
             double? numero0 = null;
             Assert.AreEqual(numero0.ToNumericSql(), "Null", "Nao retornou nulo", CultureInfo.CurrentCulture);
 
